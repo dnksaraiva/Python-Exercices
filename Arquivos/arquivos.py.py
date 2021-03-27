@@ -148,9 +148,7 @@ list(map(pow, listaA,listaB))
 # Exercício 6 - Considerando o range de valores abaixo, use a função filter() para retornar apenas os valores negativos.
 range(-5, 5)
 
-def negativos(N):
-    return n < 0
-list(filter(negativos, range(-5, 5))
+list(filter(lambda x: x < 0), range(-5, 5))
 
 
 # In[ ]:
