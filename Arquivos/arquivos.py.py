@@ -179,6 +179,11 @@ print(time.strftime("%d/%m/%Y %H:%M:%S"))
 # Crie um terceiro dicionário com as chaves do dicionário 1 e os valores do dicionário 2.
 dict1 = {'a':1,'b':2}
 dict2 = {'c':4,'d':5}
+dict3 = {}
+
+d3 = list(zip(dict1, dict2.values()))
+dict3.update(d3)
+print(dict3)
 
 
 # In[ ]:
